@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <h1>Revisor de Tesis</h1>
-    <img alt="Vue logo" src="../assets/logo.png" style="width: 100px">
+    <img alt="Vue logo" src="../assets/kuayolo.jpeg" style="width: 30%">
     <Login v-if="isLoggingIn"></Login>
     <Signup v-if="!isLoggingIn"></Signup>
     <div v-if="isLoggingIn">
