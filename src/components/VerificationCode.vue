@@ -1,13 +1,16 @@
 <template>
     <div class="codigo">
         <h2>Código de verificación</h2>
-        <hr>
+        <hr class="hr-custom">
         <label >
             Introduce el código que enviamos al correo electrónico proporcionado:
             <input v-model="verificationCode" placeholder="#####" />
         </label><br><br>
         <button type="button" v-on:click="handleCode">Validar</button>
         <h4>{{errorMessage}}</h4>
+        <div>
+            <img class="image-footer" src="../assets/Education-Wallpapers-HD.jpg" alt="banner">
+        </div>
     </div>
 </template>
 

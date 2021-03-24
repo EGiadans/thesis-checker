@@ -1,7 +1,7 @@
 <template>
     <div class="cambio-pwd">
         <h2>Cambio de contraseña</h2>
-        <hr>
+        <hr class="hr-custom">
         <label>
             Introduce la nueva contraseña:
             <input v-model="password" placeholder="Tu contraseña..." type="password" />
@@ -13,6 +13,9 @@
         </label><br><br>
         <button type="button" v-on:click="saveNewPassword">Guardar</button>
         <h4>{{finalMessage}}</h4>
+        <div>
+            <img class="image-footer" src="../assets/Education-Wallpapers-HD.jpg" alt="banner">
+        </div>
     </div>
 </template>
 

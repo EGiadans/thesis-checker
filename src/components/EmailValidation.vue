@@ -2,7 +2,7 @@
   <div class="hello">
     <h1>{{ msg }}</h1>
     <h2>Recupera tu contraseña</h2>
-    <hr>
+    <hr class="hr-custom">
     <form>
       <label >
         Introduce tu correo electrónico:
@@ -11,6 +11,9 @@
       <button type="button" v-on:click="showEmail">Reestablecer contraseña</button>
     </form>
     <h4>{{finalMessage}}</h4>
+    <div>
+      <img class="image-footer" src="../assets/Education-Wallpapers-HD.jpg" alt="banner">
+    </div>
   </div>
 </template>
 
